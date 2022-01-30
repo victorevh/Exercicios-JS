@@ -21,4 +21,7 @@ function carregar() {
         img.src = './assets/photos/night.png'
         document.body.style.background = '#515154'
     }
+    
+    var footerMsg = window.document.getElementById('footerMsg')
+    footerMsg.innerHTML = `&copy; Victor Oliveira`
 }
