@@ -24,4 +24,5 @@ function carregar() {
     
     var footerMsg = window.document.getElementById('footerMsg')
     footerMsg.innerHTML = `&copy; Victor Oliveira`
+
 }
