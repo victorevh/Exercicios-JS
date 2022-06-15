@@ -19,12 +19,6 @@ const getState = () => {
     return { imageSource, index, existsInLocalStorage}
 }
 
-const updateAll = () => {
-
-    updateFavorites()
-    updateClasses()
-    
-}
 
 const updateFavorites = () => {
     const { existsInLocalStorage, index, imageSource } = getState()
@@ -52,6 +46,13 @@ const updateClasses = () => {
     if(existsInLocalStorage) {
         imageContainer.classList.add('fav')
     }
+}
+
+const updateAll = () => {
+
+    updateFavorites()
+    updateClasses()
+    
 }
 
 const updateImage = async () => {
