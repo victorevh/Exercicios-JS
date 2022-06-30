@@ -29,6 +29,7 @@ const updateFavorites = () => {
     //else
     : favorites.push(imageSource)
 
+// condicional mais legivel
 /*    if(existsInLocalStorage) {
         favorites.splice(index, 1)
     } else {    // salvar ou remover no localstorage
